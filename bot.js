@@ -52,7 +52,7 @@ function updateChatHistory(sender, message) {
 }
 
 // Export function that handles incoming messages
-module.exports = sansekai = async (client, m, chatUpdate, store) => {
+module.exports = goutam = async (client, m, chatUpdate, store) => {
   try {
     // If the sender has no chat history, create a new array for the sender
     if (!chatHistory[m.sender]) chatHistory[m.sender] = [];
