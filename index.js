@@ -179,7 +179,7 @@ async function startHisoka() {
   console.log(`using WA v${version.join(".")}, isLatest: ${isLatest}`);
   console.log(
     color(
-      figlet.textSync("HARSHITETHIC", {
+      figlet.textSync("WHATSAPP-GPT", {
         font: "Standard",
         horizontalLayout: "default",
         vertivalLayout: "default",
